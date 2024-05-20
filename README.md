@@ -15,29 +15,29 @@ You can access the data by key:
 
     const qjson::Json loaded_file ("filename.json");
 
-    qjson::json data = json["key"];
+    qjson::json data = loaded_file["key"];
 
 or by index:
 
     const qjson::Json loaded_file ("filename.json");
 
-    qjson::json data = json[0];
+    qjson::json data = loaded_file[0];
 
 Data can be a string, number, boolean, or another JSON object.
 You can print JSON objects as long as they are a string, number, or boolean by:
 
     const qjson::Json loaded_file ("filename.json");
 
-    std::cout << json["key"] << std::endl;
+    std::cout << loaded_file["key"] << std::endl;
 
 Data can be deleted by key:
 
     const qjson::Json loaded_file ("filename.json");
 
-    json.del("key");
+    loaded_file.del("key");
 
 or by index:
     
     const qjson::Json loaded_file ("filename.json");
     
-    json.del(0);
+    loaded_file.del(0);

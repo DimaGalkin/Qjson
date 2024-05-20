@@ -1,4 +1,4 @@
-# QJson - A JSON parser for C++
+# QJson - A single header JSON parser for C++
 
 QJson is a JSON parser for C++ that is designed to be simple and easy to use. It is a header-only library that can be included in your project by simply copying the `qjson.hpp` file into your project.
 

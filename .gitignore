@@ -1,0 +1,4 @@
+main.cpp
+*.json
+cmake-build-debug/
+CMakeLists.txt
